@@ -1,0 +1,57 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 2rem;
+  background-image: url(./Images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  gap: 2rem;
+}
+.main > div {
+  width: 50%;
+}
+
+.main > .image > img {
+  border-radius: 20px;
+  object-fit: contain;
+  width: 70%;
+}
+
+.main > .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 2;
+}
+
+.main > .content > h1,
+.main > .content > p {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.main > .image {
+  display: flex;
+  justify-content: center;
+}
+.myImages {
+  display: flex;
+  justify-content: space-between;
+}
+.myImages > img {
+  width: 30%;
+}
+@media screen and (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+  }
+  .main > .content > h1,
+  .main > .content > p {
+    font-size: 1.8rem;
+  }
+}
