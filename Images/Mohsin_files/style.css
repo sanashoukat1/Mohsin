@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-image: url(./Images/background.jpg);
+  background-image: url(./Images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -43,7 +43,7 @@ body {
 .myImages {
   display: flex;
   justify-content: space-between;
-  padding-left: 1rem;
+  padding-left: 3rem;
 }
 .myImages > img {
   width: 30%;
@@ -55,15 +55,6 @@ body {
 }
 .red {
   color: red;
-}
-.yellow {
-  color: blueviolet;
-}
-.brown {
-  color: aqua;
-}
-.green {
-  color: peru;
 }
 .pink {
   color: blue;
@@ -82,5 +73,4 @@ body {
   border-radius: 25px;
   width: 38rem;
   padding-left: 13px;
-  height: 52vh;
 }
