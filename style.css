@@ -52,21 +52,23 @@ body {
 .main2 > .content > h2,
 .main2 > .content > p {
   font-size: 4rem;
+  font-style: oblique;
+  margin: 70px;
 }
 .red {
-  color: red;
+  color: silver;
 }
 .yellow {
-  color: blueviolet;
+  color: silver;
 }
 .brown {
-  color: aqua;
+  color: silver;
 }
 .green {
   color: peru;
 }
 .pink {
-  color: blue;
+  color: silver;
 }
 @media screen and (max-width: 1000px) {
   .main {
